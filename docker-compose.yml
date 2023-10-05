@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  prediction-api:
+    container_name: prediction-api
+    build: .
